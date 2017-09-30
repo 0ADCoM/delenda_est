@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Entity parent="template_unit_cavalry_melee_swordsman">
+  <Identity>
+    <Civ>imp</Civ>
+	<Lang>latin</Lang>
+	<SelectionGroupName>units/hele_cavalry_swordsman_b</SelectionGroupName>
+	<GenericName>Overseeker Cavalryman</GenericName>
+    <SpecificName>Eque</SpecificName>
+    <History>...</History>
+    <Icon>units/hele_cavalry_swordsman.png</Icon>
+  </Identity>
+  <Promotion>
+    <Entity>units/imp_cavalry_clubman_b</Entity>
+  </Promotion>
+  <VisualActor>
+    <Actor>units/romans_imperial/cavalry_clubman_b</Actor>
+  </VisualActor>
+</Entity>
